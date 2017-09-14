@@ -1,8 +1,7 @@
 ---
 layout: post
-title: 3D Vision
+title: Image Motion and Tracking
 ---
-3D Vision
 =============
 ### **[2017, CVPR] Semantic Scene Completion From a Single Depth Image** 
 ##### [(pdf)](https://arxiv.org/abs/1611.08974)
