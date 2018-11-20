@@ -23,9 +23,9 @@ theme_settings:
   behance:
   bitbucket:
   dribbble:
-  facebook:
+  facebook: "821023945562"
   flickr:
-  github: "https://github.com/leejeyeol/LJY_Machine_Learning"
+  github: "leejeyeol/LJY_Machine_Learning"
   google_plus:
   instagram:
   linkedin:  # Full URL
@@ -35,7 +35,7 @@ theme_settings:
   stack_exchange:  # Full URL
   steam:
   tumblr:
-  twitter: "twitter"
+  twitter: 
   wordpress:
   youtube:
 
