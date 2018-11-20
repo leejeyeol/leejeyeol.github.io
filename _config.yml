@@ -12,7 +12,7 @@ theme_settings:
 
   # Header and footer text
   header_text: >
-     <p style="font-size:300%;">We can see it as much about it as we know.</p>
+     <p style="font-size:200%;">We can see it as much about it as we know.</p>
   header_text_feature_image:
   footer_text: >
    Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://rohanchandra.github.io/project/type/">Type Theme</a>
