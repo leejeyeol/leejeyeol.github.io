@@ -5,9 +5,9 @@ layout: default
     <div class="cat-posts">
     <hr>
     <ul>
-      <br>
-      <br>
+      <div class="cat-title">
       <center><h1> {{page.full_title}} </h1></center>
+      </div>
       {% for category in site.categories %}
       {% assign title = category | first %}
       {% if page.title == title %}
