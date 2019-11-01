@@ -2,7 +2,7 @@
 layout: post
 title: Knowledge Distillation
 categories : [ML,Papers]
-permalink: 'ML/Papers'
+permalink: /:ML/:Papers/
 ---
 #### **Paper** ####
 Distilling the Knowledge in a Neural Network    
