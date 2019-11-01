@@ -5,37 +5,21 @@ layout: default
     <div class="posts">
     <hr>
     <ul>
+      <center><h1> {{page.full_title}} </h1></center>
       {% for category in site.categories %}
       {% assign title = category | first %}
       {% if page.title == title %}
-      <h2> {{page.full_title}} </h2>
       {% for posts in category %}
       {% for post in posts %}
       {% if post.url %}
-      <!--
-      <li>
-        <time>
-          {{ post.date | date:"%F" }} {{ post.date | date: "%a" }}.
-        </time>
-        <a class="title" href="{{ post.url | prepend: site.url }}">{{ post.title }}</a>
-      </li>
-      --->
+
       <div class="post-teaser">
       <header>
-        <h1>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-            {{ post.title }}
-          </a>
-        </h1>
+        <a class="title" href="{{ post.url | prepend: site.url }}">{{ post.title }}</a>
         <p class="meta">
           {{ post.date | date: "%B %-d, %Y" }}
         </p>
       </header>
-      <div class="excerpt">
-        <a class="button" href="{{ post.url | prepend: site.baseurl }}">
-          {{ site.theme_settings.str_continue_reading }}
-        </a>
-      </div>
     </div>
       {% endif %}
       {% endfor %}
