@@ -5,7 +5,7 @@ url: "https://leejeyeol.github.io" # the base hostname & protocol for your site
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
-  title: Jolly Co-operation! v2
+  title: Jolly Co-operation! v3
   avatar: sun.png
   gravatar: # Email MD5 hash
   description: "Machine Learning and Pattern Analysis" # used by search engines
