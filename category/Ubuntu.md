@@ -1,5 +1,6 @@
 ---
 
 layout: category
-title: ML
+title: Ubuntu
+
 ---
