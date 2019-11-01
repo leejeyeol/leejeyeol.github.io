@@ -2,5 +2,5 @@
 
 layout: category
 title: Git
-permalink : /DE/Free/
+permalink : /DE/Git/
 ---
