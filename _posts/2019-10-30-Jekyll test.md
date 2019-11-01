@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Knowledge Distillation
+title: Jekyll test
 categories : [ML,Papers]
 permalink: 'ML/Papers'
 ---
