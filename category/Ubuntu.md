@@ -1,7 +1,6 @@
 ---
-
 layout: category
 title: Ubuntu
-permalink : /DE/Ubuntu/
-
+full_title: Ubuntu
+permalink : /DE/Ubuntu
 ---
