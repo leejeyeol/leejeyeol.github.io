@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Latex
-categories : [Free]
+categories : [etc]
 
 ---
 #### **Code**

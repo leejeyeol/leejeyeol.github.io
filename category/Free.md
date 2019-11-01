@@ -1,6 +1,6 @@
 ---
 layout: category
-title: Free
-full_title: Free
-permalink : /Free/
+title: etc
+full_title: etc
+permalink : /etc/
 ---
