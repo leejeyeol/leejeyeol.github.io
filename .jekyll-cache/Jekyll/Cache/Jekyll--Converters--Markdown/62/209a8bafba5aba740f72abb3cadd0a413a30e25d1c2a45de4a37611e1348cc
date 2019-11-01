@@ -1,0 +1,6 @@
+I"<h4 id="code"><strong>Code</strong></h4>
+<p>git config credential.helper store<br />
+git push https://github.com/repo.git<br />
+Username for ‘https://github.com’: &lt;USERNANE&gt; <br />
+Password for ‘https://USERNAME@github.com’: &lt;PASSWORD&gt;</p>
+:ET
