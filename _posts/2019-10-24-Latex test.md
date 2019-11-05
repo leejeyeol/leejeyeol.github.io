@@ -5,4 +5,4 @@ categories : [etc]
 
 ---
 #### **Code**
-$$P(x|z) = \frac{P(z|x)P(x)}{P(z)}$$//
+$$P(x|z) = \frac{P(z|x)P(x)}{P(z)}$$  
