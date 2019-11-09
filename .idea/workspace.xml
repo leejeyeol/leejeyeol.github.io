@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae18b42d-fc84-440f-904d-78032a5c58ab" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/remote-mappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2019-11-08-Preprocessing.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2019-11-09-Programming paradigm.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/leejeyeol.github.io.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leejeyeol.github.io.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Cache/b7/9606fb3afea5bd1609ed40b622142f1c98125abcfe89a76a661b0e8e343910" beforeDir="false" afterPath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Cache/b7/9606fb3afea5bd1609ed40b622142f1c98125abcfe89a76a661b0e8e343910" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/ee/7923497f475f08c8f89a0ffa2512076362cbadf62f37e883acb3718e581361" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/_posts/2019-11-05-test title.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2019-11-05-test title.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,17 +33,18 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/category" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/_posts" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\leeje\Workspace\Github\leejeyeol.github.io\_posts" />
       <recent name="C:\Users\rnt\Git\leejeyeol.github.io\category" />
       <recent name="C:\Users\rnt\Git\leejeyeol.github.io\_posts" />
     </key>
@@ -53,6 +61,16 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="2019-11-05-test title.md" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/leejeyeol.github.io/_posts/2019-11-05-test title.md" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.2019-11-05-test title.md" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -64,6 +82,14 @@
       <option name="presentableId" value="Default" />
       <updated>1571907403301</updated>
       <workItem from="1572930808859" duration="10859000" />
+      <workItem from="1573008102305" duration="984000" />
+      <workItem from="1573009101893" duration="22000" />
+      <workItem from="1573009639501" duration="1048000" />
+      <workItem from="1573013602981" duration="674000" />
+      <workItem from="1573103008747" duration="5117000" />
+      <workItem from="1573186375695" duration="2038000" />
+      <workItem from="1573188533113" duration="16000" />
+      <workItem from="1573285860526" duration="5608000" />
     </task>
     <servers />
   </component>
@@ -97,7 +123,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
