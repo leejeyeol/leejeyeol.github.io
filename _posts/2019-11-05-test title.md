@@ -4,11 +4,11 @@ title: test title
 categories : [ML,DL]
 use_math: true
 ---
-<!--밑바닥부터 시작하는 딥러닝 요약--->
+<!--밑바닥부터 시작하는 딥러닝--->
 
 밑바닥부터 시작하는 딥러닝
 ================
-복습겸 요약 정리. 
+복습겸 놓친부분 정리
 
 Chapter 1 생략  
 ----------------  
@@ -43,6 +43,20 @@ softmax 함수
 overflow를 피하기 위해 상수를 이용해서 구현(밑바닥 93)
 inference 단계에서는 계산하지 않고 max를 하는게 계산비용의 이득(지수함수 계산이 비쌈)
 
+accuracy를 직접 objective function으로 사용하게 되면 weight에 대한 미분값이 대부분의 구간에서 0
+
+gradient는 모든 변수의 편미분을 벡터로 정의한것.$(frac{\delta f}_{\delta x_{0}},\frac{\delta f}_{\delta x_{1}})$
+gradient descent 는 각 변수에 해당 변수에 대한 편미분값 * learning rate를 빼는 것으로 이루어짐.
+따라서 변수 벡터 - gradient*learning rate로 표현된다.(당연하지만 ascent는 빼는게 아니라 더한다.)
+미니 배치 케이스의 경우 gradient를 각 배치에 대하여 평균내어 사용한다.
+
+필요한 미분은 수치미분으로 이루어짐. 
+순수한 수치미분으로도 해결할 수 있지만 이는 느린 편이고, 해석미분과 back propagation을 사용하면 고속화할 수 있다(DP처럼 동작함.)
+
+chain rule 합성함수의 미분은 합성함수를 구성하는 각 함수의 미분의 곱으로 나타낼 수 있다.
+
+책에서는 계산 그래프를 이용한 방법으로 backpropagation을 설명하는데... 어떻게 보면 수식이 더 이해하기 쉬운것같기도 하다.
+pytorch에서 구현을 계산그래프로 하기 때문에 계산그래프도 더 완전히 이해하면 좋을 것 같다.
 
 
 
