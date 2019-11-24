@@ -58,5 +58,23 @@ chain rule 합성함수의 미분은 합성함수를 구성하는 각 함수의 
 책에서는 계산 그래프를 이용한 방법으로 backpropagation을 설명하는데... 어떻게 보면 수식이 더 이해하기 쉬운것같기도 하다.
 pytorch에서 구현을 계산그래프로 하기 때문에 계산그래프도 더 완전히 이해하면 좋을 것 같다.
 
+chapter 6 Techniques 
+----------
+**Optimizers** 
+SGD
+모멘텀(속도,관성의 개념 도입)
+Adagrad(각각의 weight에 대한 각각의 learning rate를 적응적으로 조절한다. gradient에서 미분값이 큰 값일수록 learning rate가 줄어듬)
+RMSProp(Adagrad는 기울기의 제곱을 계속 더해가며 이를 이용해 갱신함으로  점점 갱신강도가 약해져 나중에는 전혀 갱신되지 않는 문제가 있다.
+RMSProp은 과거 기울기의 비중을 점점 줄이고 최근 정보의 비중을 늘리는 Exponential Moving average로 learning rate를 결정하여 갱신량을 유지함.)
+ADAM (모멘텀 + Adagrad. 관성을 추가하고 여기에 적응형 learning rate를 적용한다.) 
 
+**Weight Initialization**
+각 레이어의 활성화값이 activation function의 기울기를 0으로 하는 값이 적을수록, 그리고 한 값으로 치우치지 않을수록 좋다.
+그렇지 않으면 gradient vanishing 현상이 일어나거나 신경망의 학습이 더뎌진다.
+Sigmoid나 Tanh를 activation function으로 쓸때는 Xavier 초기값을, ReLU를 쓸 때 He 초기값을 쓰면 좋다.
 
+**Batch Normalization**
+BN은 각 layer에서 activation function에 입력되기 전(이나 후), 데이터들이 평균 0 분산 1이 되도록 정규화한다.
+그리고 정규화된 값에 scale 연산과 shift연산을 수행하며, 이 연산의 피연산자는 학습과정에서 weight와 함께 학습된다.
+이 연산은 미분가능하여 backpropagation이 가능하다.
+각 계층의 데이터값을 정규화하면 학습속도가 빨라지고 weight initialization의 영향을 덜 받으며, 오버피팅을 억제해준다.

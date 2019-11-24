@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae18b42d-fc84-440f-904d-78032a5c58ab" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/leejeyeol.github.io.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leejeyeol.github.io.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_posts/2019-11-05-test title.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2019-11-05-test title.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_posts/2019-11-09-Programming paradigm.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2019-11-09-Programming paradigm.md" afterDir="false" />
@@ -86,7 +84,9 @@
       <workItem from="1573186375695" duration="2038000" />
       <workItem from="1573188533113" duration="16000" />
       <workItem from="1573285860526" duration="13062000" />
-      <workItem from="1573460586073" duration="2038000" />
+      <workItem from="1573460586073" duration="10571000" />
+      <workItem from="1573702719932" duration="848000" />
+      <workItem from="1574142329875" duration="26443000" />
     </task>
     <servers />
   </component>
