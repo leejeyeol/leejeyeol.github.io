@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae18b42d-fc84-440f-904d-78032a5c58ab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/_posts/계획.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2019-11-01-Python3.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2019-11-01-Python3.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2019-11-09-Programming paradigm.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2019-11-09-Programming paradigm.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,7 +27,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../LJY_DS_and_algorithm" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../LJY_Machine_Learning" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -85,7 +86,10 @@
       <workItem from="1573285860526" duration="13062000" />
       <workItem from="1573460586073" duration="10571000" />
       <workItem from="1573702719932" duration="848000" />
-      <workItem from="1574142329875" duration="60155000" />
+      <workItem from="1574142329875" duration="60418000" />
+      <workItem from="1577007289242" duration="5804000" />
+      <workItem from="1577602579696" duration="1541000" />
+      <workItem from="1577772815773" duration="3006000" />
     </task>
     <servers />
   </component>
